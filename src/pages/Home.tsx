@@ -13,12 +13,12 @@ const projects = [
   },
   {
     index: "02",
-    title: "蔚来智能检测岛",
-    subtitle: "机器人检测 · 机械系统 · 电气协同",
+    title: "蔚来机器人系统",
+    subtitle: "机械臂设计 · 智能检测 · 电气协同",
     image: "/assets/project-nio-inspection.svg",
     summary:
-      "围绕汽车制造质量场景中的智能检测岛，理解机器人、检测工装、设备布局与电气控制之间的系统关系，并以公开版案例呈现项目脉络。",
-    result: "总布局 / 机械系统 / 电气控制 / 设备协同",
+      "从五自由度机械臂的结构与运动验证，延伸至汽车制造质量场景中的智能检测岛，呈现机械、控制、设备与质量流程之间的系统关系。",
+    result: "机械臂 / 运动学 / 检测岛 / 系统协同",
     className: "project-card project-card-featured project-card-nio",
     href: "/projects/nio",
   },
