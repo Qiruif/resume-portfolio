@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" role="img" aria-labelledby="title desc">
+  <title id="title">智能检测岛系统抽象图</title>
+  <desc id="desc">由机器人、检测工位、控制系统和数据链路构成的抽象系统视觉</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0e0f"/>
+      <stop offset="1" stop-color="#151b1d"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b8edff"/>
+      <stop offset="1" stop-color="#4bb6e6"/>
+    </linearGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M54 0H0V54" fill="none" stroke="#d9f2fa" stroke-opacity=".08"/>
+    </pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1600" height="700" fill="url(#bg)"/>
+  <rect width="1600" height="700" fill="url(#grid)"/>
+  <ellipse cx="1130" cy="280" rx="330" ry="190" fill="#71cfee" opacity=".07" filter="url(#glow)"/>
+  <g fill="none" stroke="#dff6ff" stroke-opacity=".22">
+    <rect x="126" y="144" width="1040" height="412" rx="8"/>
+    <rect x="184" y="202" width="412" height="296" rx="4"/>
+    <rect x="646" y="202" width="462" height="296" rx="4"/>
+    <path d="M596 350H646M1108 350H1302" stroke-dasharray="8 11"/>
+  </g>
+  <g stroke="url(#blue)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M314 442V366l64-58 82 28 44-82"/>
+    <path d="M786 442V366l64-58 82 28 44-82"/>
+  </g>
+  <g fill="#0e1315" stroke="#a9e6ff" stroke-width="5">
+    <circle cx="314" cy="442" r="30"/><circle cx="314" cy="366" r="26"/><circle cx="378" cy="308" r="24"/><circle cx="460" cy="336" r="22"/><circle cx="504" cy="254" r="20"/>
+    <circle cx="786" cy="442" r="30"/><circle cx="786" cy="366" r="26"/><circle cx="850" cy="308" r="24"/><circle cx="932" cy="336" r="22"/><circle cx="976" cy="254" r="20"/>
+  </g>
+  <g fill="#9adfff">
+    <circle cx="1228" cy="248" r="8"/><circle cx="1326" cy="350" r="8"/><circle cx="1228" cy="452" r="8"/>
+  </g>
+  <g fill="none" stroke="#9adfff" stroke-width="2" stroke-dasharray="8 9">
+    <path d="M976 254H1228V452H976"/>
+    <path d="M1228 248l98 102-98 102"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#eef8fb">
+    <text x="126" y="102" font-size="18" letter-spacing="6">NIO / INTELLIGENT INSPECTION CELL</text>
+    <text x="122" y="620" font-size="70" font-weight="600" letter-spacing="-2">SYSTEMS × QUALITY × ROBOTICS</text>
+    <text x="1230" y="184" font-size="14" letter-spacing="3" fill="#7e929a">CONTROL</text>
+    <text x="185" y="534" font-size="13" letter-spacing="3" fill="#7e929a">STATION 01</text>
+    <text x="647" y="534" font-size="13" letter-spacing="3" fill="#7e929a">STATION 02</text>
+  </g>
+</svg>
