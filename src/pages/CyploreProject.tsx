@@ -71,9 +71,9 @@ export default function CyploreProject() {
       <section className="cyplore-overview case-section case-shell" aria-labelledby="overview-title">
         <div className="case-eyebrow">01 / OVERVIEW</div>
         <div className="cyplore-overview-copy">
-          <h2 id="overview-title">不只做一件硬件，<br />而是建立一套产品体系。</h2>
+          <h2 id="overview-title">从一件硬件出发，<br />学习理解完整产品。</h2>
           <p>
-            CYPLORE 项目从电助力套件的工程验证出发，逐步延伸到设备连接、骑行数据、OTA、故障诊断和 AI Agent 服务。我在其中连接用户需求、硬件约束与软件体验，推动复杂能力成为可以被理解、验证和交付的产品。
+            CYPLORE 项目从电助力套件的工程验证出发，逐步延伸到设备连接、骑行数据、OTA、故障诊断和 AI Agent 服务。作为硬件产品实习生，我参与其中的需求梳理与验证工作，并学习如何同时理解用户需求、硬件约束和软件体验。
           </p>
         </div>
         <div className="cyplore-outcomes" aria-label="项目成果">
@@ -110,8 +110,8 @@ export default function CyploreProject() {
       <section className="cyplore-system case-section case-shell" aria-labelledby="system-title">
         <div className="case-eyebrow">03 / PRODUCT SYSTEM</div>
         <div className="cyplore-system-heading">
-          <h2 id="system-title">把复杂能力，组织成<br />一条清晰的用户路径。</h2>
-          <p>产品工作覆盖硬件定义、软件体验和服务系统三个层次，并以真实场景中的可用性作为共同判断标准。</p>
+          <h2 id="system-title">尝试从用户路径，<br />理解复杂产品能力。</h2>
+          <p>通过硬件、软件与服务三个层次的工作，我逐步学习如何用真实场景中的可用性检查产品设计。</p>
         </div>
         <div className="cyplore-layer-grid">
           {productLayers.map((layer) => (
@@ -127,7 +127,7 @@ export default function CyploreProject() {
       <section className="cyplore-process case-section" aria-labelledby="process-title">
         <div className="case-shell">
           <div className="case-eyebrow">04 / APPROACH</div>
-          <h2 id="process-title">我的工作方式</h2>
+          <h2 id="process-title">我在项目中学习的方式</h2>
           <div className="cyplore-process-list">
             {process.map(([index, title, text]) => (
               <article key={index}>
@@ -144,7 +144,7 @@ export default function CyploreProject() {
       <footer className="cyplore-footer">
         <div className="case-shell">
           <p>NEXT / LET&apos;S BUILD</p>
-          <h2>让技术成为用户<br />愿意持续使用的产品。</h2>
+          <h2>继续学习如何让技术<br />被用户理解和使用。</h2>
           <div className="cyplore-footer-actions">
             <a href="mailto:qiruifan2-c@my.cityu.edu.hk">联系范麒瑞 ↗</a>
             <a href="/">返回作品集 ↑</a>

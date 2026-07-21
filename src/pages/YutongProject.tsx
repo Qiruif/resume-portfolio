@@ -41,11 +41,11 @@ export default function YutongProject() {
 
         <div className="yutong-hero-grid case-shell">
           <div className="yutong-hero-copy">
-            <p>SELECTED CASE / 03 · MECHANICAL ENGINEERING</p>
+            <p>INTERNSHIP CASE / 03 · MECHANICAL ENGINEERING</p>
             <h1>
-              从悬架接口，
+              从悬架零件开始，
               <br />
-              到<span>可制造的结构。</span>
+              <span>学习工程设计。</span>
             </h1>
             <div className="yutong-meta">
               <span>宇通客车悬架设计</span>
@@ -111,7 +111,7 @@ export default function YutongProject() {
       <section className="yutong-workflow case-section case-shell" aria-labelledby="yutong-workflow-title">
         <div className="case-eyebrow">03 / ENGINEERING LOOP</div>
         <div className="yutong-section-heading">
-          <h2 id="yutong-workflow-title">七个步骤，<br />让设计进入真实生产。</h2>
+          <h2 id="yutong-workflow-title">七个步骤，<br />理解设计如何进入生产。</h2>
           <p>从初始接口到样件反馈，模型、图纸与版本信息持续同步，设计在每一次装配和验证中收敛。</p>
         </div>
         <div className="yutong-workflow-list">
@@ -130,7 +130,7 @@ export default function YutongProject() {
         <div className="case-shell yutong-validation-grid">
           <div>
             <div className="case-eyebrow">04 / VALIDATION MINDSET</div>
-            <h2 id="yutong-validation-title">设计判断，<br />最终要在装配现场成立。</h2>
+            <h2 id="yutong-validation-title">每一次判断，<br />都要回到装配现场。</h2>
             <p>运动间隙、孔位对齐、焊接可达性、工具操作空间与累计公差，决定了一套结构能否从三维模型真正走向样件和生产。</p>
           </div>
           <div className="yutong-check-grid" aria-label="悬架设计验证要点">
@@ -152,12 +152,12 @@ export default function YutongProject() {
       <footer className="yutong-footer">
         <div className="case-shell">
           <p>NEXT / LET&apos;S BUILD</p>
-          <h2>把工程约束，<br />转化为清晰的产品判断。</h2>
+          <h2>从每个工程细节，<br />积累更扎实的判断。</h2>
           <div>
             <a href="mailto:qiruifan2-c@my.cityu.edu.hk">联系我 ↗</a>
             <a href="/">返回作品集</a>
           </div>
-          <small>© 2026 FAN QIRUI · ROBOTICS PRODUCT MANAGER</small>
+          <small>© 2026 FAN QIRUI · ROBOTICS PRODUCT DIRECTION</small>
         </div>
       </footer>
     </main>

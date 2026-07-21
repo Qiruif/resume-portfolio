@@ -39,8 +39,8 @@ export default function NioProject() {
         </nav>
         <div className="nio-hero-grid case-shell">
           <div className="nio-hero-copy">
-            <p>SELECTED CASE / 02 · QUALITY MANUFACTURING</p>
-            <h1>让机器人能力，<br />成为<span>可验证的系统。</span></h1>
+            <p>INTERNSHIP CASE / 02 · QUALITY MANUFACTURING</p>
+            <h1>在真实工程中，<br /><span>学习理解机器人系统。</span></h1>
             <div className="nio-meta">
               <span>蔚来机器人系统</span>
               <span>机械臂 · 检测岛 · 电气 · 质量</span>
@@ -72,7 +72,7 @@ export default function NioProject() {
         <div className="case-shell">
           <div className="case-eyebrow">02 / SYSTEM VIEW</div>
           <div className="nio-section-heading">
-            <h2 id="nio-system-title">四个层次，<br />共同决定检测质量。</h2>
+            <h2 id="nio-system-title">从四个层次，<br />学习理解检测质量。</h2>
             <p>公开版仅展示系统层级和工作方法；具体尺寸、零件号、电气拓扑及原始图纸不在网页中披露。</p>
           </div>
           <div className="nio-layer-grid">
@@ -91,7 +91,7 @@ export default function NioProject() {
         <div className="case-shell">
           <div className="case-eyebrow">03 / ROBOT ARM DESIGN</div>
           <div className="nio-section-heading nio-arm-heading">
-            <h2 id="nio-arm-title">五自由度机械臂，<br />从结构到运动闭环。</h2>
+            <h2 id="nio-arm-title">从机械臂设计，<br />练习结构与运动验证。</h2>
             <p>围绕喷涂任务完成机械臂方案设计：从目标负载和工作空间出发，推进关节传动、三维结构、运动学与仿真验证，让设计指标能够被逐层检查。</p>
           </div>
 
@@ -130,7 +130,7 @@ export default function NioProject() {
             </figure>
             <div>
               <p>VALIDATION LOGIC</p>
-              <h3>把机械设计，转化成可验证的产品指标。</h3>
+              <h3>用清晰的指标，检查每一步机械设计。</h3>
               <ul>
                 <li><span>01</span>工作空间是否覆盖目标作业区域</li>
                 <li><span>02</span>关节转矩与传动方案是否保留安全裕度</li>
@@ -171,7 +171,7 @@ export default function NioProject() {
         <div className="nio-diagram-copy">
           <div className="case-eyebrow">05 / PRODUCT THINKING</div>
           <h2 id="nio-method-title">从一张图纸，<br />看到系统边界。</h2>
-          <p>机械、电气和现场流程并不是独立模块。产品判断需要识别它们之间的接口、约束与异常传递路径，再把系统语言转化为可验证、可追踪的质量目标。</p>
+          <p>机械、电气和现场流程并不是独立模块。我在项目中学习识别它们之间的接口、约束与异常传递路径，并尝试用可验证、可追踪的方式理解质量目标。</p>
         </div>
         <div className="nio-system-map" aria-label="智能检测岛系统关系图">
           <div className="nio-map-center">检测任务<br /><span>INSPECTION</span></div>
@@ -192,7 +192,7 @@ export default function NioProject() {
       <footer className="nio-footer">
         <div className="case-shell">
           <p>NEXT / SYSTEMS PRODUCT</p>
-          <h2>理解工程细节，<br />做出系统级产品判断。</h2>
+          <h2>从工程细节出发，<br />继续学习系统思考。</h2>
           <div><a href="mailto:qiruifan2-c@my.cityu.edu.hk">联系范麒瑞 ↗</a><a href="/">返回作品集 ↑</a></div>
           <small>© 2026 FAN QIRUI · NIO CASE STUDY / PUBLIC VERSION</small>
         </div>
