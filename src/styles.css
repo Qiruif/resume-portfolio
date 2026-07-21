@@ -1784,9 +1784,10 @@ video {
 
 .nio-arm-visuals {
   display: grid;
-  margin-top: 28px;
-  grid-template-columns: 1.35fr 0.65fr;
-  gap: 24px;
+  width: min(1180px, 100%);
+  margin: 52px auto 0;
+  grid-template-columns: 1.12fr 0.88fr;
+  gap: 20px;
 }
 
 .nio-arm-visuals figure,
@@ -1800,8 +1801,7 @@ video {
 
 .nio-arm-visuals img {
   width: 100%;
-  height: 100%;
-  min-height: 480px;
+  height: 360px;
   object-fit: contain;
   filter: saturate(0.78) contrast(1.04);
 }
@@ -1875,16 +1875,18 @@ video {
 
 .nio-arm-validation {
   display: grid;
-  margin-top: 100px;
-  grid-template-columns: minmax(0, 0.9fr) minmax(460px, 1.1fr);
-  gap: 80px;
+  width: min(1180px, 100%);
+  margin: 84px auto 0;
+  grid-template-columns: minmax(0, 0.76fr) minmax(460px, 1.24fr);
+  gap: 72px;
   align-items: center;
 }
 
 .nio-arm-validation figure img {
   display: block;
   width: 100%;
-  aspect-ratio: 1.1 / 1;
+  max-height: 390px;
+  aspect-ratio: 4 / 3;
   object-fit: contain;
 }
 
@@ -2663,7 +2665,7 @@ video {
   .nio-arm-stats article:first-child { min-height: 150px; padding: 22px 18px; border-bottom: 1px solid var(--line); }
   .nio-arm-stats article:nth-child(2) { border-right: 0; }
   .nio-arm-visuals { grid-template-columns: 1fr; }
-  .nio-arm-visuals img { min-height: 0; aspect-ratio: 4 / 3; }
+  .nio-arm-visuals img { height: auto; aspect-ratio: 4 / 3; }
   .nio-arm-visuals figcaption { gap: 8px; align-items: flex-start; flex-direction: column; }
   .nio-arm-workstreams { grid-template-columns: 1fr; margin-top: 70px; }
   .nio-arm-workstreams article,
