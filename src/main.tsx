@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import Home from "./pages/Home";
 import CyploreProject from "./pages/CyploreProject";
 import NioProject from "./pages/NioProject";
+import YutongProject from "./pages/YutongProject";
 import "./styles.css";
 
 const path = window.location.pathname.replace(/\/$/, "") || "/";
@@ -16,6 +17,9 @@ if (path.endsWith("/projects/cyplore")) {
 } else if (path.endsWith("/projects/nio")) {
   Page = NioProject;
   title = "蔚来智能检测岛｜范麒瑞";
+} else if (path.endsWith("/projects/yutong")) {
+  Page = YutongProject;
+  title = "宇通客车悬架设计｜范麒瑞";
 }
 
 document.title = title;

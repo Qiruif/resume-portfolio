@@ -22,6 +22,18 @@ const projects = [
     className: "project-card project-card-featured project-card-nio",
     href: "/projects/nio",
   },
+  {
+    index: "03",
+    title: "宇通客车悬架设计",
+    subtitle: "机械设计 · CATIA 建模 · 工程验证",
+    image: "",
+    visualType: "suspension",
+    summary:
+      "围绕控制臂、转向节与减振器安装支架，参与从接口分析、三维迭代和总成装配，到工程图、样件试装与设计变更的工程闭环。",
+    result: "结构设计 / 装配校核 / 样件验证 / 版本闭环",
+    className: "project-card project-card-featured project-card-yutong",
+    href: "/projects/yutong",
+  },
 ];
 
 const strengths = [
@@ -271,7 +283,21 @@ export default function Home() {
                   </a>
                 )}
                 <div className="project-visual">
-                  {project.imageSecondary ? (
+                  {project.visualType === "suspension" ? (
+                    <div className="suspension-cover" aria-label="客车悬架结构抽象视觉">
+                      <div className="suspension-cover-wheel suspension-cover-wheel-left" />
+                      <div className="suspension-cover-wheel suspension-cover-wheel-right" />
+                      <div className="suspension-cover-arm suspension-cover-arm-left" />
+                      <div className="suspension-cover-arm suspension-cover-arm-right" />
+                      <div className="suspension-cover-damper suspension-cover-damper-left" />
+                      <div className="suspension-cover-damper suspension-cover-damper-right" />
+                      <div className="suspension-cover-axle" />
+                      <div className="suspension-cover-label">
+                        <span>BUS SUSPENSION / ENGINEERING LOOP</span>
+                        <strong>INTERFACE → MODEL → ASSEMBLY → VALIDATION</strong>
+                      </div>
+                    </div>
+                  ) : project.imageSecondary ? (
                     <div className="project-cover-pair">
                       <img src={project.image} alt="CYPLORE 产品硬件部件" />
                       <img src={project.imageSecondary} alt="CYPLORE 产品设计草图" />
