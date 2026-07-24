@@ -1,8 +1,8 @@
 const systemLayers = [
-  { index: "01", label: "LAYOUT", title: "系统与工位布局", text: "从整岛视角理解工位、机器人、检测区域与周边设备的空间关系。" },
-  { index: "02", label: "MECHANICAL", title: "机械与末端系统", text: "梳理机器人、快换结构、检测工装和不同任务接口之间的机械依赖。" },
-  { index: "03", label: "ELECTRICAL", title: "电气与控制系统", text: "理解控制柜、PLC、网络与现场设备之间的控制和通信关系。" },
-  { index: "04", label: "QUALITY", title: "质量制造场景", text: "从检测动作、异常路径和结果追溯出发，建立系统级质量视角。" },
+  { index: "01", label: "MANUFACTURING", title: "制造现场认知", text: "在实习中观察质量要求如何进入日常制造工作，理解现场节奏、规范与协作的重要性。" },
+  { index: "02", label: "ROBOTICS", title: "机器人应用场景", text: "从实际制造环境认识机器人不是孤立设备，而是需要与工艺、人员和质量目标共同工作的系统。" },
+  { index: "03", label: "COLLABORATION", title: "跨专业协作", text: "学习机械、电气、质量与现场团队之间如何沟通问题，并尊重不同岗位的专业边界。" },
+  { index: "04", label: "QUALITY", title: "质量与责任意识", text: "认识到制造质量依赖严谨记录、问题闭环和合规意识，也包括对企业信息与资料的保护。" },
 ];
 
 const armWorkstreams = [
@@ -39,17 +39,17 @@ export default function NioProject() {
         </nav>
         <div className="nio-hero-grid case-shell">
           <div className="nio-hero-copy">
-            <p>INTERNSHIP CASE / 02 · QUALITY MANUFACTURING</p>
-            <h1>在真实工程中，<br /><span>学习理解机器人系统。</span></h1>
+            <p>INTERNSHIP EXPERIENCE / 02 · QUALITY MANUFACTURING</p>
+            <h1>在制造现场中，<br /><span>学习理解质量与机器人。</span></h1>
             <div className="nio-meta">
-              <span>蔚来机器人系统</span>
-              <span>机械臂 · 检测岛 · 电气 · 质量</span>
+              <span>蔚来质量制造实习</span>
+              <span>行业经验 · 场景认知 · 保密合规</span>
               <span>2024</span>
             </div>
           </div>
           <figure className="nio-hero-visual">
-            <img src="/assets/project-nio-inspection.svg" alt="智能检测岛系统抽象视觉" />
-            <figcaption>PUBLIC CASE / CONFIDENTIAL DETAILS REDACTED</figcaption>
+            <img src="/assets/project-nio-inspection.svg" alt="机器人制造场景抽象视觉" />
+            <figcaption>EXPERIENCE OVERVIEW / NO INTERNAL DETAILS</figcaption>
           </figure>
         </div>
       </header>
@@ -57,14 +57,14 @@ export default function NioProject() {
       <section className="nio-overview case-section case-shell" aria-labelledby="nio-overview-title">
         <div className="case-eyebrow">01 / CONTEXT</div>
         <div>
-          <h2 id="nio-overview-title">在制造质量场景中，<br />理解复杂机器人系统。</h2>
-          <p>这是一套面向汽车制造质量场景的智能检测岛。项目资料覆盖总体布局、设备布局、机械系统和电气控制，呈现出机器人能力如何通过工装、控制与现场流程成为完整检测系统。</p>
+          <h2 id="nio-overview-title">这段经历代表我的行业经验，<br />不代表一个可公开的内部项目。</h2>
+          <p>我曾在蔚来担任质量制造实习生，这段经历让我接触汽车制造现场，并开始理解质量工作、机器人应用和跨专业协作。由于签署了保密协议，本页面不介绍具体产品、产线、设备方案、参数、图纸或内部流程。</p>
         </div>
         <aside>
           <strong>我的身份</strong>
           <p>质量制造实习生</p>
-          <strong>案例重点</strong>
-          <p>系统理解 · 接口梳理 · 质量场景</p>
+          <strong>公开范围</strong>
+          <p>经历背景 · 学习收获 · 通用认知</p>
         </aside>
       </section>
 
@@ -72,8 +72,8 @@ export default function NioProject() {
         <div className="case-shell">
           <div className="case-eyebrow">02 / SYSTEM VIEW</div>
           <div className="nio-section-heading">
-            <h2 id="nio-system-title">从四个层次，<br />学习理解检测质量。</h2>
-            <p>公开版仅展示系统层级和工作方法；具体尺寸、零件号、电气拓扑及原始图纸不在网页中披露。</p>
+            <h2 id="nio-system-title">实习带给我的，<br />是对制造现场的初步认识。</h2>
+            <p>以下内容只总结个人层面的通用学习收获，不对应蔚来的具体产线、设备、产品或内部方案。</p>
           </div>
           <div className="nio-layer-grid">
             {systemLayers.map((layer) => (
@@ -89,10 +89,10 @@ export default function NioProject() {
 
       <section className="nio-arm case-section" aria-labelledby="nio-arm-title">
         <div className="case-shell">
-          <div className="case-eyebrow">03 / ROBOT ARM DESIGN</div>
+          <div className="case-eyebrow">03 / INDEPENDENT COURSE PROJECT</div>
           <div className="nio-section-heading nio-arm-heading">
-            <h2 id="nio-arm-title">从机械臂设计，<br />练习结构与运动验证。</h2>
-            <p>围绕喷涂任务完成机械臂方案设计：从目标负载和工作空间出发，推进关节传动、三维结构、运动学与仿真验证，让设计指标能够被逐层检查。</p>
+            <h2 id="nio-arm-title">独立课程设计：<br />五自由度机械臂。</h2>
+            <p>以下机械臂是我的课程设计项目，并非蔚来内部机器人或实习工作成果。课程题目参考工业机器人的典型形态与作业方式，围绕喷涂任务完成构型、关节传动、三维结构、运动学和仿真验证，用来说明我的机械工程基础。</p>
           </div>
 
           <div className="nio-arm-stats" aria-label="机械臂关键设计指标">
@@ -140,45 +140,22 @@ export default function NioProject() {
             </div>
           </div>
 
-          <p className="nio-evidence-note">PUBLIC PREVIEW · SOURCE CAD ASSEMBLIES AND DETAILED COMPONENT DATA NOT PUBLISHED</p>
+          <p className="nio-evidence-note">COURSE PROJECT · INDEPENDENT FROM NIO INTERNSHIP · SOLIDWORKS + MATLAB</p>
         </div>
-      </section>
-
-      <section className="nio-evidence case-section case-shell" aria-labelledby="nio-evidence-title">
-        <div className="case-eyebrow">04 / ENGINEERING EVIDENCE</div>
-        <div className="nio-section-heading">
-          <h2 id="nio-evidence-title">真实工程内容，<br />只展示必要部分。</h2>
-          <p>以下画面由项目资料局部截取并模糊处理，仅用于呈现系统规模与跨专业协同关系。</p>
-        </div>
-        <div className="nio-evidence-grid">
-          <figure className="nio-evidence-wide">
-            <img src="/assets/nio-layout-public.webp" alt="经过脱敏处理的智能检测岛整体布局局部" />
-            <figcaption><span>01 / SYSTEM LAYOUT</span><strong>整岛与工位关系</strong></figcaption>
-          </figure>
-          <figure>
-            <img src="/assets/nio-mechanical-public.webp" alt="经过脱敏处理的机器人机械系统局部" />
-            <figcaption><span>02 / MECHANICAL</span><strong>机器人与检测工装</strong></figcaption>
-          </figure>
-          <figure>
-            <img src="/assets/nio-electrical-public.webp" alt="经过脱敏处理的设备与电气布局局部" />
-            <figcaption><span>03 / ELECTRICAL</span><strong>双工位控制关系</strong></figcaption>
-          </figure>
-        </div>
-        <p className="nio-evidence-note">PUBLIC PREVIEW · DIMENSIONS, PART NUMBERS AND TITLE BLOCKS REDACTED</p>
       </section>
 
       <section className="nio-diagram case-section case-shell" aria-labelledby="nio-method-title">
         <div className="nio-diagram-copy">
-          <div className="case-eyebrow">05 / PRODUCT THINKING</div>
-          <h2 id="nio-method-title">从一张图纸，<br />看到系统边界。</h2>
-          <p>机械、电气和现场流程并不是独立模块。我在项目中学习识别它们之间的接口、约束与异常传递路径，并尝试用可验证、可追踪的方式理解质量目标。</p>
+          <div className="case-eyebrow">04 / LEARNING CONNECTION</div>
+          <h2 id="nio-method-title">把实习认知与课程实践，<br />清楚地区分，也相互印证。</h2>
+          <p>蔚来实习让我认识机器人进入制造现场后需要面对工艺、协作与质量要求；机械臂课程设计则让我练习结构建模和工程验证。二者来源不同，但共同帮助我建立对机器人产品的基础理解。</p>
         </div>
-        <div className="nio-system-map" aria-label="智能检测岛系统关系图">
-          <div className="nio-map-center">检测任务<br /><span>INSPECTION</span></div>
-          <div className="nio-map-node nio-map-node-a">机器人与末端</div>
-          <div className="nio-map-node nio-map-node-b">设备与工位</div>
-          <div className="nio-map-node nio-map-node-c">电气与控制</div>
-          <div className="nio-map-node nio-map-node-d">质量与追溯</div>
+        <div className="nio-system-map" aria-label="机器人产品学习路径">
+          <div className="nio-map-center">机器人产品<br /><span>LEARNING</span></div>
+          <div className="nio-map-node nio-map-node-a">制造现场认知</div>
+          <div className="nio-map-node nio-map-node-b">机械工程基础</div>
+          <div className="nio-map-node nio-map-node-c">质量与合规</div>
+          <div className="nio-map-node nio-map-node-d">持续学习实践</div>
           <i className="nio-map-line nio-map-line-a" /><i className="nio-map-line nio-map-line-b" />
           <i className="nio-map-line nio-map-line-c" /><i className="nio-map-line nio-map-line-d" />
         </div>
@@ -186,7 +163,7 @@ export default function NioProject() {
 
       <section className="nio-confidential case-shell" aria-label="保密说明">
         <span>CONFIDENTIALITY</span>
-        <p>本页面为公开版案例，不展示原始工程图纸、详细尺寸、零件编号或电气拓扑。完整项目资料仅在获得适当授权的面试沟通中展示。</p>
+        <p>蔚来相关内容仅用于说明本人实习经历。任何内部图纸、参数、流程、设备照片、产品信息及项目资料均不在本网站或面试材料中展示；页面中的机械臂模型、仿真和参数全部来自独立课程设计。</p>
       </section>
 
       <footer className="nio-footer">
@@ -194,7 +171,7 @@ export default function NioProject() {
           <p>NEXT / SYSTEMS PRODUCT</p>
           <h2>从工程细节出发，<br />继续学习系统思考。</h2>
           <div><a href="mailto:qiruifan2-c@my.cityu.edu.hk">联系范麒瑞 ↗</a><a href="/">返回作品集 ↑</a></div>
-          <small>© 2026 FAN QIRUI · NIO CASE STUDY / PUBLIC VERSION</small>
+          <small>© 2026 FAN QIRUI · INTERNSHIP EXPERIENCE & INDEPENDENT COURSE PROJECT</small>
         </div>
       </footer>
     </main>

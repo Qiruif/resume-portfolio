@@ -13,12 +13,12 @@ const projects = [
   },
   {
     index: "02",
-    title: "蔚来机器人系统",
-    subtitle: "机械臂设计 · 智能检测 · 电气协同",
+    title: "蔚来质量制造实习",
+    subtitle: "制造质量认知 · 机器人场景理解 · 保密合规",
     image: "/assets/project-nio-inspection.svg",
     summary:
-      "从五自由度机械臂的结构与运动验证，延伸至汽车制造质量场景中的智能检测岛，呈现机械、控制、设备与质量流程之间的系统关系。",
-    result: "机械臂 / 运动学 / 检测岛 / 系统协同",
+      "蔚来实习帮助我建立对汽车质量制造与机器人应用场景的认识。受保密协议约束，页面不展示任何内部项目细节；另以独立的五自由度机械臂课程设计说明工程基础。",
+    result: "实习经验 / 保密合规 / 课程设计 / 工程基础",
     className: "project-card project-card-featured project-card-nio",
     href: "/projects/nio",
   },

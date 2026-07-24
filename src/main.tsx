@@ -16,7 +16,7 @@ if (path.endsWith("/projects/cyplore")) {
   title = "CYPLORE 智能骑行产品体系｜范麒瑞";
 } else if (path.endsWith("/projects/nio")) {
   Page = NioProject;
-  title = "蔚来机器人系统｜范麒瑞";
+  title = "蔚来质量制造实习与机械臂课程设计｜范麒瑞";
 } else if (path.endsWith("/projects/yutong")) {
   Page = YutongProject;
   title = "宇通客车悬架设计｜范麒瑞";
