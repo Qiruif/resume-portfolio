@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import CyploreProject from "./pages/CyploreProject";
 import NioProject from "./pages/NioProject";
 import YutongProject from "./pages/YutongProject";
+import { I18nProvider } from "./i18n";
 import "./styles.css";
 
 const path = window.location.pathname.replace(/\/$/, "") || "/";
@@ -26,6 +27,8 @@ document.title = title;
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Page />
+    <I18nProvider>
+      <Page />
+    </I18nProvider>
   </StrictMode>,
 );

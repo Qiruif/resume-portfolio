@@ -1,3 +1,5 @@
+import { LanguageSwitch } from "../i18n";
+
 const systemLayers = [
   { index: "01", label: "MANUFACTURING", title: "制造现场认知", text: "在实习中观察质量要求如何进入日常制造工作，理解现场节奏、规范与协作的重要性。" },
   { index: "02", label: "ROBOTICS", title: "机器人应用场景", text: "从实际制造环境认识机器人不是孤立设备，而是需要与工艺、人员和质量目标共同工作的系统。" },
@@ -36,6 +38,7 @@ export default function NioProject() {
           <a href="/">← 返回作品集</a>
           <img src="/assets/logo-nio.png" alt="NIO 蔚来" />
           <a href="mailto:qiruifan2-c@my.cityu.edu.hk">联系我 ↗</a>
+          <LanguageSwitch />
         </nav>
         <div className="nio-hero-grid case-shell">
           <div className="nio-hero-copy">

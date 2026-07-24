@@ -1,3 +1,5 @@
+import { LanguageSwitch } from "../i18n";
+
 const components = [
   {
     index: "01",
@@ -37,6 +39,7 @@ export default function YutongProject() {
           <a href="/">← 返回作品集</a>
           <img src="/assets/logo-yutong.png" alt="宇通客车" />
           <a href="mailto:qiruifan2-c@my.cityu.edu.hk">联系我 ↗</a>
+          <LanguageSwitch />
         </nav>
 
         <div className="yutong-hero-grid case-shell">

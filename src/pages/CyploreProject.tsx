@@ -1,3 +1,5 @@
+import { LanguageSwitch } from "../i18n";
+
 const productLayers = [
   {
     index: "01",
@@ -47,6 +49,7 @@ export default function CyploreProject() {
           <a href="/" className="cyplore-back">← 返回作品集</a>
           <img src="/assets/logo-cyplore.png" alt="CYPLORE" />
           <a href="mailto:qiruifan2-c@my.cityu.edu.hk">联系我 ↗</a>
+          <LanguageSwitch />
         </nav>
 
         <div className="cyplore-hero-content case-shell">

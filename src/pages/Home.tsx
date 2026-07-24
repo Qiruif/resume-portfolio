@@ -1,3 +1,5 @@
+import { LanguageSwitch } from "../i18n";
+
 const projects = [
   {
     index: "01",
@@ -135,6 +137,7 @@ export default function Home() {
           <a className="nav-contact" href="#contact">
             联系我 <span aria-hidden="true">↗</span>
           </a>
+          <LanguageSwitch />
         </nav>
 
         <div className="hero-content shell">
@@ -215,36 +218,55 @@ export default function Home() {
             </div>
           </div>
 
-          <aside className="education-panel" aria-labelledby="education-title">
-            <div className="education-header">
-              <p>EDUCATION</p>
-              <h3 id="education-title">教育背景</h3>
-            </div>
+          <div className="profile-side">
+            <figure className="profile-campus-photo">
+              <img
+                src="/assets/fan-qirui-cityu-graduation.jpg"
+                alt="范麒瑞在香港城市大学学院毕业典礼"
+                width="1440"
+                height="2160"
+                loading="lazy"
+              />
+              <figcaption>
+                <span>CITYU · ACADEMIC EXPLORATION / 2026</span>
+                <h3>研究、教学与职业探索</h3>
+                <p>
+                  本科阶段，我将部分课程安排在第五学年修读，也借此延长探索与实践的时间。我加入刘成教授课题组，参与损伤检测研究项目的协作，并协助制作 SYE3003《Design and Analysis of Manufacturing Processes and Systems》课程教案；在研究、教学与项目实践之间，进一步认识自己的能力方向并规划未来职业道路。
+                </p>
+              </figcaption>
+            </figure>
 
-            <article className="education-item">
-              <div className="education-logo education-logo-hku">
-                <img src="/assets/logo-hku.svg" alt="香港大学 Logo" />
+            <aside className="education-panel" aria-labelledby="education-title">
+              <div className="education-header">
+                <p>EDUCATION</p>
+                <h3 id="education-title">教育背景</h3>
               </div>
-              <div className="education-copy">
-                <p>香港大学 · 机械工程学院</p>
-                <h4>机械工程硕士（待入学）</h4>
-                <span>全日制 · Mechanical Engineering</span>
-              </div>
-              <time>2026.09 — 2027.09</time>
-            </article>
 
-            <article className="education-item">
-              <div className="education-logo education-logo-cityu">
-                <img src="/assets/logo-cityu.png" alt="香港城市大学 Logo" />
-              </div>
-              <div className="education-copy">
-                <p>香港城市大学 · 系统工程学系</p>
-                <h4>智能制造工程本科</h4>
-                <span>全日制 · GPA 3.1 / 4.3</span>
-              </div>
-              <time>2021.09 — 2026.06</time>
-            </article>
-          </aside>
+              <article className="education-item">
+                <div className="education-logo education-logo-hku">
+                  <img src="/assets/logo-hku.svg" alt="香港大学 Logo" />
+                </div>
+                <div className="education-copy">
+                  <p>香港大学 · 机械工程学院</p>
+                  <h4>机械工程硕士（待入学）</h4>
+                  <span>全日制 · Mechanical Engineering</span>
+                </div>
+                <time>2026.09 — 2027.09</time>
+              </article>
+
+              <article className="education-item">
+                <div className="education-logo education-logo-cityu">
+                  <img src="/assets/logo-cityu.png" alt="香港城市大学 Logo" />
+                </div>
+                <div className="education-copy">
+                  <p>香港城市大学 · 系统工程学系</p>
+                  <h4>智能制造工程本科</h4>
+                  <span>全日制 · GPA 3.1 / 4.3</span>
+                </div>
+                <time>2021.09 — 2026.06</time>
+              </article>
+            </aside>
+          </div>
         </div>
 
         <div className="experience-list" aria-label="个人经历">
