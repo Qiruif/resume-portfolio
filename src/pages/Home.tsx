@@ -14,11 +14,11 @@ const projects = [
   {
     index: "02",
     title: "蔚来质量制造实习",
-    subtitle: "制造质量认知 · 机器人场景理解 · 保密合规",
+    subtitle: "制造质量 · 智能化场景 · 跨专业协作",
     image: "/assets/project-nio-inspection.svg",
     summary:
-      "蔚来实习帮助我建立对汽车质量制造与机器人应用场景的认识。受保密协议约束，页面不展示任何内部项目细节；另以独立的五自由度机械臂课程设计说明工程基础。",
-    result: "实习经验 / 保密合规 / 课程设计 / 工程基础",
+      "在蔚来质量制造实习中接触汽车制造现场，学习从质量、工艺与协作视角理解智能化设备如何服务真实生产，并逐步建立对复杂工程系统的整体认识。",
+    result: "制造质量 / 智能化场景 / 跨专业协作 / 工程基础",
     className: "project-card project-card-featured project-card-nio",
     href: "/projects/nio",
   },
@@ -140,17 +140,17 @@ export default function Home() {
         <div className="hero-content shell">
           <div className="hero-copy">
             <p className="kicker">
-              <span /> ROBOTICS PRODUCT INTERN · LEARNING BY BUILDING
+              <span /> PRODUCT MANAGEMENT INTERN · LEARNING BY BUILDING
             </p>
             <h1 id="hero-title">
               在真实项目中，
               <br />
-              学习做好
+              学习把
               <br />
-              <span>机器人产品。</span>
+              <span>产品做好。</span>
             </h1>
             <p className="hero-lead">
-              我是范麒瑞，智能制造工程本科生，也是一名正在学习入行的机器人产品实习生。我希望从机械、电控、感知和数据等工程细节出发，理解真实需求，在项目中逐步积累产品能力。
+              我是范麒瑞，智能制造工程本科生，也是一名正在学习入行的产品经理实习生。我希望发挥工程背景优势，从用户需求、技术实现和真实场景出发，在智能硬件、制造与 AI 项目中逐步积累产品能力。
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#projects">
@@ -178,7 +178,7 @@ export default function Home() {
             <figcaption>
               <span className="status-dot" aria-hidden="true" />
               <div>
-                <p>机器人产品方向实习生</p>
+                <p>产品经理实习生</p>
                 <small>LEARNING · ENGINEERING · PRODUCT</small>
               </div>
               <span aria-hidden="true">FQR / 01</span>
@@ -202,7 +202,7 @@ export default function Home() {
         <div className="profile-grid">
           <div className="profile-content">
             <p className="profile-intro">
-              机械工程与智能制造的学习经历，让我能够从结构、传感器、控制和数据链路理解机器人系统，也让我认识到自己仍需要补充大量真实场景与产品经验。
+              机械工程与智能制造的学习经历，让我能够从结构、传感器、控制和数据链路理解复杂软硬件产品，也让我认识到自己仍需要补充大量真实场景与产品经验。
             </p>
             <p className="profile-body">
               我参与过电助力硬件、智能骑行 App、机器人检测、悬架设计与 AI Agent 服务等项目。希望通过这些实践学习如何理解需求、配合团队、验证方案，并把每一次反馈变成下一次进步。
@@ -350,7 +350,7 @@ export default function Home() {
         <div className="contact-orbit contact-orbit-two" aria-hidden="true" />
         <div className="contact-content shell">
           <p>04 / CONTACT</p>
-          <h2 id="contact-title">期待在下一段实践中，<br />继续认真学习机器人产品。</h2>
+          <h2 id="contact-title">期待在下一段实践中，<br />继续认真学习产品工作。</h2>
           <a className="contact-mail" href="mailto:qiruifan2-c@my.cityu.edu.hk">
             qiruifan2-c@my.cityu.edu.hk <span aria-hidden="true">↗</span>
           </a>

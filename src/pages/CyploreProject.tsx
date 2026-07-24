@@ -50,7 +50,7 @@ export default function CyploreProject() {
         </nav>
 
         <div className="cyplore-hero-content case-shell">
-          <p>SELECTED CASE / 01 · ROBOTICS PRODUCT</p>
+          <p>SELECTED CASE / 01 · SMART HARDWARE PRODUCT</p>
           <h1>
             从电助力硬件，
             <br />

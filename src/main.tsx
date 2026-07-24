@@ -9,7 +9,7 @@ import "./styles.css";
 const path = window.location.pathname.replace(/\/$/, "") || "/";
 
 let Page = Home;
-let title = "范麒瑞｜机器人产品方向实习生";
+let title = "范麒瑞｜产品经理实习生";
 
 if (path.endsWith("/projects/cyplore")) {
   Page = CyploreProject;

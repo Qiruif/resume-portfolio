@@ -157,7 +157,7 @@ export default function YutongProject() {
             <a href="mailto:qiruifan2-c@my.cityu.edu.hk">联系我 ↗</a>
             <a href="/">返回作品集</a>
           </div>
-          <small>© 2026 FAN QIRUI · ROBOTICS PRODUCT DIRECTION</small>
+          <small>© 2026 FAN QIRUI · ENGINEERING & PRODUCT DIRECTION</small>
         </div>
       </footer>
     </main>

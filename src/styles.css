@@ -1631,6 +1631,16 @@ video {
   line-height: 2;
 }
 
+.nio-confidential-note {
+  display: block;
+  max-width: 850px;
+  margin-top: 18px;
+  color: #66747a;
+  font-size: 0.62rem;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+
 .nio-overview aside {
   padding-top: 12px;
   border-top: 1px solid var(--line-strong);

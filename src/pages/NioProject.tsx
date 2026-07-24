@@ -40,16 +40,16 @@ export default function NioProject() {
         <div className="nio-hero-grid case-shell">
           <div className="nio-hero-copy">
             <p>INTERNSHIP EXPERIENCE / 02 · QUALITY MANUFACTURING</p>
-            <h1>在制造现场中，<br /><span>学习理解质量与机器人。</span></h1>
+            <h1>在蔚来，走进汽车制造现场，<br /><span>学习理解质量与智能化。</span></h1>
             <div className="nio-meta">
               <span>蔚来质量制造实习</span>
-              <span>行业经验 · 场景认知 · 保密合规</span>
+              <span>制造质量 · 智能化场景 · 跨专业协作</span>
               <span>2024</span>
             </div>
           </div>
           <figure className="nio-hero-visual">
             <img src="/assets/project-nio-inspection.svg" alt="机器人制造场景抽象视觉" />
-            <figcaption>EXPERIENCE OVERVIEW / NO INTERNAL DETAILS</figcaption>
+            <figcaption>INTERNSHIP EXPERIENCE / PUBLIC OVERVIEW</figcaption>
           </figure>
         </div>
       </header>
@@ -57,8 +57,9 @@ export default function NioProject() {
       <section className="nio-overview case-section case-shell" aria-labelledby="nio-overview-title">
         <div className="case-eyebrow">01 / CONTEXT</div>
         <div>
-          <h2 id="nio-overview-title">这段经历代表我的行业经验，<br />不代表一个可公开的内部项目。</h2>
-          <p>我曾在蔚来担任质量制造实习生，这段经历让我接触汽车制造现场，并开始理解质量工作、机器人应用和跨专业协作。由于签署了保密协议，本页面不介绍具体产品、产线、设备方案、参数、图纸或内部流程。</p>
+          <h2 id="nio-overview-title">在蔚来，<br />理解质量如何融入制造现场。</h2>
+          <p>作为质量制造实习生，我在汽车制造场景中学习质量工作的基本方法，观察智能化设备、现场工艺与团队协作之间的关系。这段经历让我开始从真实生产约束出发理解问题，也建立了对制造质量、工程沟通和工作责任的初步认识。</p>
+          <small className="nio-confidential-note">注：受保密协议约束，具体产品、产线、设备方案、参数、图纸及内部流程不作公开展示。</small>
         </div>
         <aside>
           <strong>我的身份</strong>
@@ -148,10 +149,10 @@ export default function NioProject() {
         <div className="nio-diagram-copy">
           <div className="case-eyebrow">04 / LEARNING CONNECTION</div>
           <h2 id="nio-method-title">把实习认知与课程实践，<br />清楚地区分，也相互印证。</h2>
-          <p>蔚来实习让我认识机器人进入制造现场后需要面对工艺、协作与质量要求；机械臂课程设计则让我练习结构建模和工程验证。二者来源不同，但共同帮助我建立对机器人产品的基础理解。</p>
+          <p>蔚来实习让我认识智能化设备进入制造现场后需要面对工艺、协作与质量要求；机械臂课程设计则让我练习结构建模和工程验证。二者来源不同，但共同帮助我建立对复杂产品与工程场景的基础理解。</p>
         </div>
-        <div className="nio-system-map" aria-label="机器人产品学习路径">
-          <div className="nio-map-center">机器人产品<br /><span>LEARNING</span></div>
+        <div className="nio-system-map" aria-label="产品学习路径">
+          <div className="nio-map-center">产品理解<br /><span>LEARNING</span></div>
           <div className="nio-map-node nio-map-node-a">制造现场认知</div>
           <div className="nio-map-node nio-map-node-b">机械工程基础</div>
           <div className="nio-map-node nio-map-node-c">质量与合规</div>
@@ -159,11 +160,6 @@ export default function NioProject() {
           <i className="nio-map-line nio-map-line-a" /><i className="nio-map-line nio-map-line-b" />
           <i className="nio-map-line nio-map-line-c" /><i className="nio-map-line nio-map-line-d" />
         </div>
-      </section>
-
-      <section className="nio-confidential case-shell" aria-label="保密说明">
-        <span>CONFIDENTIALITY</span>
-        <p>蔚来相关内容仅用于说明本人实习经历。任何内部图纸、参数、流程、设备照片、产品信息及项目资料均不在本网站或面试材料中展示；页面中的机械臂模型、仿真和参数全部来自独立课程设计。</p>
       </section>
 
       <footer className="nio-footer">
